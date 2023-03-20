@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <main id="main-content">
+        <h1 id="title">Circle Triangle Star</h1>
+   
+   
+        <p class="desc animate" id="desc1">
+          A world of three shapes are trying to destroy each other...
+        </p>
+        <p class="desc disappear" id="desc2">
+          But only one can win, the first to five will win...
+        </p>
+        <p class="desc disappear" id="desc3">
+          Do you have what it takes to win and rule all?
+        </p></main>
+  <div class="selections">
+    <button class="selection" data-selection="circle">◯</button>
+    <button class="selection" data-selection="triangle">△</button>
+    <button class="selection" data-selection="star">✩</button>
+  </div>
+  <div class="results">
+    <div>
+        🔵
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+        🔴
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+  </div>
+</body>
+</html>
